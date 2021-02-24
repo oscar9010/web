@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=ol, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <form action="recibir.php" method="POST">
-    <h2>registro</h2>
-    id <input type="text" name="id">
-    Nombre <input type="text" name="nombre">
-    escolaridad <input type="text" name="escolaridad">
-    telefono <input type="text" name="telefono">
-    <input type="submit" name="enviar" value="enviar">
-</form>
-=======
-    <h3> Cambio relaizado desde github</h3>
-    <h1>palabras</h1>
-    <ol>
-        <li>pelicula</li>
-        <li>casa hola</li>
-        <li>hola</li>
-        <li>prueba au</li>
-        <li>ayuda</li>
-
-    </ol>
->>>>>>> 331ef9382324c50ae52139510151293def40ad34
+    <form action="">
+        <label for="nombres">
+            <span>Ingresa tu nombre</span>
+            <input type="text " name="nombres" id="nombres"  placeholder="Nombres y Apellidos" autocomplete="name" required>
+        </label><br><br>
+        <label for="telefono">
+            <span>Ingresa tu telefono</span>
+            <input type="tel" name="telefono" id="telefono" placeholder="Numero celular" required autocomplete="tel">
+        </label><br><br>
+        <label for="fecha_nacimiento">
+            <span>fecha de nacimiento</span>
+            <input type="date" name="nacimiento" id="nacimiento" autocomplete="bday" required>
+        </label><br><br>
+        <label for="email">
+            <span> ingrese su email</span>
+            <input type="email" name="email" id="email" autocomplete="email" required>
+        </label><br><br>
+        <label for="pass">
+            <span>Ingrese contraseña</span>
+            <input type="password" name="pass" id="pass" required>
+        </label><br><br>
+        <label for="reingreso_pass">
+            <span>Ingrese nuevamente la contraseña</span>
+            <input type="password" name="r_pass" id="r_pass" required>
+        </label><br><br>
+        <label for="submit">
+            <input type="submit" name="submit" id="submit">
+        </label>
+    </form>
+<script src="./js/script.js"></script>
 </body>
 </html>
