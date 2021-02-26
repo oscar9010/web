@@ -1,32 +1,43 @@
 body{
-        background-color: #4caf4f75;
+        opacity: 1;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        color: #011214;
+        color:  #f35505;
+        background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg")
+
 }
 .boton{
         background-color: white;
         color: black;
-        border: 2px solid #4CAF50; /* Green */
+        border: 2px solid #dcac4c; /* Green */
         height: 1cm;
         width: 5cm;
         border-radius: 1cm;
 }
 .boton:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: #dcac4c; /* Green */
     color:white;
 }
 form{
-
+        background-color: #fcf4e4;
+        align-content: center;
         text-align: center;
+  
         padding: 2cm;
+        margin-top: 1cm;
+        margin-left: 10cm;
+        
+        border-radius: 2cm;
+        display: inline-block;
+        border: 1px solid #dcac4c;
+        text-align: center;
         
 }
 .campo{
         border-radius: 2cm;
-        border-color: #4CAF50;
+        border-color:#dcac4c;
 }
 .titulo{
-        color: #4CAF50;
+        color: #f35505;
         font-size: 1cm;
         padding: auto;
         margin: 0.5cm;
